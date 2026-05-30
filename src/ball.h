@@ -2,15 +2,15 @@
 
 class Ball
 {
-public:
-    Ball();
-    void Update();
-    void Draw() const;
+    public:
+        Ball();
+        void Update();
+        void Draw() const;
 
-private:
-    int x;
-    int y;
-    int speedX;
-    int speedY;
-    int radius;
+    private:
+        int x;
+        int y;
+        int speedX;
+        int speedY;
+        int radius;
 };
